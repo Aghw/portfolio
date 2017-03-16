@@ -1,0 +1,223 @@
+/* 16p == 1rem */
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  /*background-color: #ABC290;*/
+  background-color: #A99490;
+  /*background-color: rgb(103,140,243);*/
+  /*background-color: hsl(194,63%,71%);*/
+  position:relative;
+  margin: 0 auto;
+  width: 50%;
+}
+
+header, footer {
+  /*width: 50%;*/
+  margin: 1 rem auto;
+  text-align: center;
+  /*background-color: #EFA100;*/
+  /*background-color: #FFC655;*/
+  /*background-color: #FFFABA;*/
+  background-color: lightgray;
+  /*border-radius: 10px;*/
+  padding: 0.01em;
+  /*clear: left;*/
+}
+
+
+main {
+  /*width: 50%;*/
+  margin: 1 rem auto;
+  text-align: center;
+  /*background-color: #EFC655;*/
+   background-color: lightgray;
+   /*border-radius: 10px;*/
+   padding: 0.01em;
+}
+
+
+ table {
+   width: 100%;
+   background-color: lightyellow;
+ }
+
+ th {
+   height: 50px;
+   background-color: #ECC670;
+   text-align: center;
+ }
+
+ td {
+   height: 20px;
+   vertical-align: bottom;
+   padding: 5px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ tr:hover {
+   background-color: #FFC655;
+ }
+
+
+  .seattle-buildings {
+     border: 1px solid black;
+     width: 100% auto;
+     background-color: #FDD955;
+  }
+
+
+#primary-content {
+  /*color: #111;*/
+  /*font-family:  'Raleway',sans-serif;*/
+  /*font-family:  'Signika',sans-serif*/
+  font-family: Gill Sans, Verdana;
+  font-weight: bold;
+  /*font-size: 275px;*/
+  /*font-style: italic;*/
+  /*color: navy;#;*/
+  color:#7c795d;
+  line-height: 1;
+  text-align: center;
+}
+
+#primary-content::first-letter{
+   font-size: 3rem;
+}
+
+
+
+/*.amendment-title {
+    color: purple;
+    text-align: center;
+    font-size: 2rem;
+}*/
+
+.stories-of-seattle {
+    text-align:justify;
+    padding:20px
+}
+
+.stories-of-seattle p {
+  width: 50%;
+  background-color: #BB2350;
+}
+
+.stories-of-seattle p {
+    background-color: Sandybrown;
+    width: 90%
+}
+
+p {
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  text-align: justify;
+  padding: 20px;
+}
+/*
+.amendment-title:hover{
+  color: red;
+}
+
+.amendment-title::first-letter {
+  font-size: 5rem;
+}*/
+ /*h2 {
+   color: purple;
+   text-align: center;
+ }*/
+
+  /*
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+[class] {
+  color: gray;
+}
+
+.seattle-story-subtitle {
+  color: navy;
+  text-align: center;
+}
+
+.seattle-story-subtitle::first-letter {
+    font-size: 3rem;
+}
+
+/*
+ h2::first-letter {
+   font-size: 3rem;
+ }
+
+ h2 {
+   color: purple;
+   text-align: center;
+ }*/
+
+ img{
+   width: 100%;
+ }
+
+ aside {
+   background: orange;
+ }
+ /*[class] {
+   color: gray;
+ }*/
+
+.headline  {
+  /*background: yellow;*/
+  font-size: 1.2rem;
+  color: voilet;
+}
+
+.source-info {
+  text-align:justify;
+  padding:20px;
+}
+ /*.document-history {
+   background: yellow;
+ }*/
+
+ /* nested selector*/
+ /*.document-history p {
+   width: 50%;
+   background-color: #BB2350;
+ }*/
+
+ .listed-items {
+   width: 50%;
+   text-align:justify;
+   list-style-position:inside;
+
+   /*background-color: #BB2350;*/
+ }
+
+ .navigate-pages {
+   font-weight: bold;
+   font-size: 2rem;
+   color: #FFF999;
+ }
+
+
+ .navigate-pages:hover {
+   color: red;
+ }
+
+/*
+ol {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+ /*.amendment {
+   text-align: center;
+ }*/
+
+
+
+ .highlight {
+   color:brown;
+ }

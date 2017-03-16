@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: rgb(103,140,243);
+   background-color: #A99490;
   position:relative;
   margin: 0 auto;
   width: 50%;
@@ -60,6 +60,7 @@ main {
 #primary-content {
   font-family: Gill Sans, Verdana;
   font-weight: bold;
+  color:#7c795d;
   line-height: 1;
   text-align: center;
 }
@@ -75,13 +76,8 @@ main {
 
  /* nested selector*/
 .stories-of-seattle p {
-  width: 50%;
-  background-color: #BB2350;
-}
-
-.stories-of-seattle p {
-    /*background-color: Sandybrown;*/
-    background-color: rgb(197, 197, 215);
+    color: #FFCCA9;
+    background-color: rgb(203, 159, 128);
     width: 90%
 }
 

@@ -1,0 +1,231 @@
+
+
+body {
+   background-color: #A99490;
+  position:relative;
+  margin: 0 auto;
+  width: 50%;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightgray;
+  padding: 0.01em;
+}
+
+
+footer {
+  margin:0 auto;
+  /*background-color: rgba(226, 221, 196, 0.8);*/
+  background-color: rgba(130, 143, 196, 0.71);
+  color: white;
+  padding: 0.2em 1em 1em 2em;
+}
+
+.footer-page-link {
+  margin: 1rem auto;
+  text-align: center;
+    padding: 0.01em;
+}
+
+
+footer h3 {
+  margin: 1rem 0;
+  line-height: 0.7rem;
+}
+
+
+footer p {
+
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+
+main {
+  margin: 0 auto;
+  text-align: center;
+   background-color: lightgray;
+   padding: 0.01em;
+}
+
+
+ table {
+   width: 100%;
+   background-color: lightyellow;
+ }
+
+ th {
+   height: 50px;
+   background-color: #ECC670;
+   text-align: center;
+ }
+
+ td {
+   height: 20px;
+   vertical-align: bottom;
+   padding: 5px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ tr:hover {
+   background-color: #FFC655;
+ }
+
+
+  .seattle-buildings {
+     border: 1px solid black;
+     width: 100%;
+     background-color: #FDD955;
+  }
+
+
+#primary-content {
+  font-family: 'Bungee Outline', cursive;
+  font-weight: bold;
+  color: navy;
+  line-height: 1;
+  text-align: center;
+}
+
+#primary-content::first-letter{
+   font-size: 3rem;
+}
+
+.stories-of-seattle {
+    text-align:justify;
+    padding:20px
+}
+
+.main-projects {
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.project {
+  width: 50%;
+}
+
+.my-projects {
+  position: relative;
+  display: inline-block;
+  font-size: 1.3rem;
+  width: 15rem;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+
+}
+
+.flag-of-seattle {
+  width:50%;
+}
+
+ /* nested selector*/
+.stories-of-seattle p {
+    color: #FFCCA9;
+    background-color: rgb(203, 159, 128);
+    width: 90%
+}
+
+p {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  text-align: justify;
+  padding: 20px;
+}
+
+[class] {
+  color: gray;
+}
+
+.seattle-story-subtitle {
+  color: navy;
+  text-align: center;
+}
+
+.seattle-story-subtitle::first-letter {
+    font-size: 3rem;
+}
+
+ img{
+   width: 100%;
+ }
+
+ aside {
+   background: orange;
+ }
+
+
+.source-info {
+  text-align:justify;
+  padding:20px;
+}
+
+ .listed-items {
+   width: 50%;
+   text-align:justify;
+   list-style-position:inside;
+ }
+
+
+.project-listed-items {
+  /*width: 50%;*/
+  text-align:justify;
+  list-style-position:inside;
+}
+
+.project-listed-items li:first-child {
+  background-color: lightyellow;
+}
+
+/* this definition is to transition
+   the list of projects when they are active*/
+.project-listed-items li {
+    transition: all 1s ease 0s;
+    /*transition: all 1s cubic-bezier(.82,.49,.78,1) 0s;*/
+}
+
+.project-listed-items li:hover {
+  background: rgb(155, 120, 065);
+  color: rgb(0, 104, 035);
+  font-size: 110%;
+
+}
+/*
+.project-listed-items li:nth-child(n+2) {
+  visibility:collapse;
+}*/
+
+.project-listed-items li:nth-child(even) {
+  background-color: silver;
+}
+
+
+ .navigate-pages {
+   font-weight: bold;
+   font-size: 2rem;
+   color: #FFF999;
+ }
+
+ .navigate-pages:hover {
+   color: red;
+ }
+
+ .highlight {
+   color:brown;
+ }
+
+ .seattle-iconic-places {
+    /* Transition of the images takes place
+      because of the following instruction */
+    transition: all 1s ease 0s;
+ }
+
+.seattle-iconic-places:hover {
+  height: 200%; width: 200%;
+}

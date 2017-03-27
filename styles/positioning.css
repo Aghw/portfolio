@@ -1,0 +1,78 @@
+.card {
+  position: relative;
+  border: 1px solid #333;
+  width: 20rem;
+  margin: 0 auto ;
+  height: 30rem;
+  top:3rem;
+  margin-bottom: 3rem;
+}
+
+.card-main-image {
+  width: 100%;
+  max-width: 100%;
+  height: 12rem;
+}
+
+
+.card-favorite {
+  position: absolute;
+  width: 4rem;
+  right: 2rem;
+  top: 10rem;
+}
+
+.card-favorite img {
+  border-radius: 50%;
+}
+
+.card-reminder {
+  position: absolute;
+  width: 3rem;
+  left: 0.5rem;
+  top: 15rem;
+}
+
+.card-byline {
+  padding: 0 3rem 0;
+  max-width: 100%;
+  margin: 0 1rem 0;
+  color: gray;
+}
+
+.card-headline {
+  margin: 2rem 2rem 1rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  padding-left: 2rem;
+}
+
+
+.card-author {
+    margin: 2rem 0 3rem 0;
+    font-size: 0.90rem;
+}
+
+
+
+.page-navigation {
+  position: relative;
+
+  width: 100%;
+  margin: 0 ;
+  height: 1rem;
+
+}
+
+.next-page {
+  position: absolute;
+  right: 0.5rem;
+  font-size: 1.2rem;
+
+}
+
+.previous-page {
+  position: absolute;
+  left: 0.5rem;
+  font-size: 1.2rem;
+}
